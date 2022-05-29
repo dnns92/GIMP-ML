@@ -56,24 +56,24 @@ FYI: weights link --> [Link](https://drive.google.com/drive/folders/1AtuIkGH7gqD
 
 
 # Model Zoo
-| Name | License | Dataset |
+| Name | Task | License | Dataset |
 | ------------- |:-------------:| :-------------:| 
-| [deblur](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#de-blur) | [BSD 3-clause](https://github.com/VITA-Group/DeblurGANv2/blob/master/LICENSE) | GoPro |
-| [faceparse](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#face-parsing) | [MIT](https://github.com/zllrunning/face-parsing.PyTorch/blob/master/LICENSE) | CelebAMask-HQ |
-| [coloring](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#deep-image-coloring) | [MIT](https://github.com/junyanz/interactive-deep-colorization/blob/master/LICENSE) | ImageNet |
-| [monodepth](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#monodepth) | [MIT](https://github.com/intel-isl/DPT/blob/main/LICENSE) | [Multiple](https://arxiv.org/pdf/1907.01341v3.pdf) |
-| [super-resolution](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#image-super-resolution) | [MIT](https://github.com/twtygqyy/pytorch-SRResNet/blob/master/LICENSE) | ImageNet |
-| [matting](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#deep-image-matting) | [Non-commercial purposes](https://github.com/poppinace/indexnet_matting/blob/master/Adobe%20Deep%20Image%20Mattng%20Dataset%20License%20Agreement.pdf) | Adobe Deep Image Matting |
-| [semantic-segmentation](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#semantic-segmentation) | [MIT](https://github.com/intel-isl/DPT/blob/main/LICENSE) | ADE20K |
-| [kmeans](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#k-means-clustering) | [BSD](https://github.com/scipy/scipy/blob/master/LICENSE.txt) | - |
-| [dehazing](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#de-haze) | [MIT](https://github.com/MayankSingal/PyTorch-Image-Dehazing/blob/master/LICENSE) | [Custom](https://sites.google.com/site/boyilics/website-builder/project-page) |
-| [denoising](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#de-noise) | [GPL3](https://github.com/SaoYan/DnCNN-PyTorch/blob/master/LICENSE) | BSD68 |
-| [enlighten](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#enlightening) | [BSD](https://github.com/VITA-Group/EnlightenGAN/blob/master/License) | [Custom](https://arxiv.org/pdf/1906.06972.pdf) |
-| [interpolate-frames](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#interpolate-frames) | [MIT](https://github.com/hzwer/arXiv2020-RIFE/blob/main/LICENSE) | [HD](https://arxiv.org/pdf/2011.06294.pdf) |
-| [inpainting](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | [CC BY-NC 4.0](https://github.com/knazeri/edge-connect/blob/master/LICENSE.md) | [CelebA, CelebHQ, Places2, Paris StreetView](https://openaccess.thecvf.com/content_ICCVW_2019/papers/AIM/Nazeri_EdgeConnect_Structure_Guided_Image_Inpainting_using_Edge_Prediction_ICCVW_2019_paper.pdf) |
-| [Detect Objects](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | [Apache-2.0](https://github.com/Tianxiaomo/pytorch-YOLOv4/blob/master/License.txt) | [COCO](https://arxiv.org/pdf/2004.10934.pdf) |
-| [Filter Folder](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | [Apache-2.0](https://github.com/Tianxiaomo/pytorch-YOLOv4/blob/master/License.txt) | [COCO](https://arxiv.org/pdf/2004.10934.pdf) |
-| [Canny Edge](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | [Apache-2.0](https://opencv.org/license/) | - |
+| [deblur](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#de-blur) | unblur images  | [BSD 3-clause](https://github.com/VITA-Group/DeblurGANv2/blob/master/LICENSE) | GoPro |
+| [faceparse](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#face-parsing) | semantic segmentation of faces | [MIT](https://github.com/zllrunning/face-parsing.PyTorch/blob/master/LICENSE) | CelebAMask-HQ |
+| [coloring](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#deep-image-coloring) | colorize grayscale images   | [MIT](https://github.com/junyanz/interactive-deep-colorization/blob/master/LICENSE) | ImageNet |
+| [monodepth](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#monodepth) | estimate depth from images | [MIT](https://github.com/intel-isl/DPT/blob/main/LICENSE) | [Multiple](https://arxiv.org/pdf/1907.01341v3.pdf) |
+| [super-resolution](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#image-super-resolution)| GAN-based super-resolution | [MIT](https://github.com/twtygqyy/pytorch-SRResNet/blob/master/LICENSE) | ImageNet |
+| [matting](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#deep-image-matting) | image matting (object segmentation) | [Non-commercial purposes](https://github.com/poppinace/indexnet_matting/blob/master/Adobe%20Deep%20Image%20Mattng%20Dataset%20License%20Agreement.pdf) | Adobe Deep Image Matting |
+| [semantic-segmentation](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#semantic-segmentation) | semantic segmentation | [MIT](https://github.com/intel-isl/DPT/blob/main/LICENSE) | ADE20K |
+| [kmeans](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#k-means-clustering) | k-means image clustering | [BSD](https://github.com/scipy/scipy/blob/master/LICENSE.txt) | - |
+| [dehazing](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#de-haze) | Remove haze from image | [MIT](https://github.com/MayankSingal/PyTorch-Image-Dehazing/blob/master/LICENSE) | [Custom](https://sites.google.com/site/boyilics/website-builder/project-page) |
+| [denoising](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#de-noise) | Remove noise from image | [GPL3](https://github.com/SaoYan/DnCNN-PyTorch/blob/master/LICENSE) | BSD68 |
+| [enlighten](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#enlightening) | Adding more lighting to image | [BSD](https://github.com/VITA-Group/EnlightenGAN/blob/master/License) | [Custom](https://arxiv.org/pdf/1906.06972.pdf) |
+| [interpolate-frames](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#interpolate-frames) | interpolate frames using optical flow | [MIT](https://github.com/hzwer/arXiv2020-RIFE/blob/main/LICENSE) | [HD](https://arxiv.org/pdf/2011.06294.pdf) |
+| [inpainting](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | inpaint missing parts of an image | [CC BY-NC 4.0](https://github.com/knazeri/edge-connect/blob/master/LICENSE.md) | [CelebA, CelebHQ, Places2, Paris StreetView](https://openaccess.thecvf.com/content_ICCVW_2019/papers/AIM/Nazeri_EdgeConnect_Structure_Guided_Image_Inpainting_using_Edge_Prediction_ICCVW_2019_paper.pdf) |
+| [Detect Objects](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | yolo-based object detection  | [Apache-2.0](https://github.com/Tianxiaomo/pytorch-YOLOv4/blob/master/License.txt) | [COCO](https://arxiv.org/pdf/2004.10934.pdf) |
+| [Filter Folder](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | filter folders based on object detection | [Apache-2.0](https://github.com/Tianxiaomo/pytorch-YOLOv4/blob/master/License.txt) | [COCO](https://arxiv.org/pdf/2004.10934.pdf) |
+| [Canny Edge](https://github.com/kritiksoman/GIMP-ML/wiki/User-Manual#in-painting) | canny edge detector | [Apache-2.0](https://opencv.org/license/) | - |
 
 
 # Citation
